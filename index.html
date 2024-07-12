@@ -1,13 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/fav.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <title>PROQuantum AI</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
+  </head>
+  <body>
+          <section class="hero-section">
+    <header>
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <a href="#">
+              <img src="./img/logo.svg" alt="logo" />
+            </a>
+          </nav>
+          <p class="text-header">
+            1,590,935<br />
+            USERS TRUST US
+          </p>
+          <button class="header-button" type="button">Create account</button>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="hero-section__block">
+          <div class="hero-section__text">
+            <h1 class="hero-title">PROQuantum AI</h1>
+            <p class="hero-text">
+              Smart Investing That Makes You $6288 in 5 Hours And Cures Poverty
+            </p>
+            <div class="hero-section__button">
+              <button class="hero-button-one" type="button">Start now</button>
+              <button class="hero-button-two" type="button">Learn more</button>
+            </div>
+          </div>
+          <div class="hero-section__form">
+            <form class="form" id="myForm">
+              <input
+                class="inp"
+                type="text"
+                name="name"
+                placeholder="First Name"
+              /><br />
+              <input
+                class="inp"
+                type="text"
+                name="name"
+                placeholder="Last Name"
+              /><br />
+              <input
+                class="inp"
+                type="text"
+                name="email"
+                placeholder="E-mail"
+              /><br />
+              <div class="block">
+                <div class="cantry">
+                  <img
+                    class="img-flag"
+                    src="https://cdn.countryflags.com/thumbs/ukraine/flag-round-250.png"
+                    alt="Український прапор"
+                  />
+                  <span>+3 80</span>
+                </div>
+                <input
+                  type="tel"
+                  class="phone"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{10}"
+                  placeholder="Phone"
+                  required
+                />
+              </div>
+              <br />
+              <button id="btn" class="form-button" type="button" onclick="showLet()">
+                Start
+              </button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="numbers-section">
+        <div class="container">
+          <h2 class="section-title">Our numbers speak for themselves</h2>
+          <div class="numbers-block">
+            <h2 class="number-plus">570k+</h2>
+            <p>Traders</p>
+          </div>
+          <img src="./img/num.svg" alt="number img" srcset="" />
+          <div class="numbers-block">
+            <h2 class="number-plus">90k+</h2>
+            <p>Active clients monthly</p>
+          </div>
+          <img src="./img/num.svg" alt="number img" srcset="" />
+          <div class="numbers-block">
+            <h2 class="number-plus">$65m+</h2>
+            <p>Monthly investing volume</p>
+          </div>
+          <img src="./img/num.svg" alt="number img" srcset="" />
+          <div class="numbers-block">
+            <h2 class="number-plus">$37m+</h2>
+            <p>Withdrawn each month</p>
+          </div>
+        </div>
+      </section>
+      <section class="markets-section">
+        <div class="container">
+          <h2 class="section-title">Tailored access to world markets</h2>
+          <p>
+            We offer a one-click trading experience with 3,000+ world-renowned
+            markets.
+          </p>
+          <div class="makets-block">
+            <div class="markets-text">
+              <div class="desc">
+                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <p>Fee-free deposits & withdrawals</p>
+              </div>
+              <div class="desc">
+                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <p>Stringent privacy and security settings</p>
+              </div>
+              <div class="desc">
+                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <p>Tech indicators, analytics tools & advanced charts</p>
+              </div>
+              <div class="desc">
+                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <p>Educational app, online courses & trading guides</p>
+              </div>
+              <div class="desc">
+                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <p>
+                  The latest market news, videos, and upcoming economic events
+                </p>
+              </div>
+              <div class="desc">
+                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <p>Integration with MT4 and TradingView</p>
+              </div>
+            </div>
+            <div class="markets-schedule">
+              <img src="./img/schedule.png" alt="" srcset="" />
+            </div>
+          </div>
+
+          <div class="usd-block">
+            <div class="usd-card">
+              <img src="./img/Ripple.svg" alt="" srcset="" />
+              <h5>Ripple / USD</h5>
+              <p>Ripple to US Dollar</p>
+              <div class="sum">
+                <p>0.526</p>
+                <p>0.00245</p>
+                <p>0.47%</p>
+              </div>
+            </div>
+            <div class="usd-card">
+              <img src="./img/sol.svg" alt="" srcset="" />
+              <h5>Sol / USD</h5>
+              <p>Sol to US Dollar</p>
+              <div class="sum">
+                <p>170.727</p>
+                <p>0.00245</p>
+                <p>0.75%</p>
+              </div>
+            </div>
+            <div class="usd-card">
+              <img src="./img/Ethereum.svg" alt="" srcset="" />
+              <h5>Ethereum / USD</h5>
+              <p>Ethereum to US Dollar</p>
+              <div class="sum">
+                <p>3806.93</p>
+                <p>36.284</p>
+                <p>0.95%</p>
+              </div>
+            </div>
+            <div class="usd-card">
+              <img src="./img/DogeCoin.svg" alt="" srcset="" />
+              <h5>DogeCoin / USD</h5>
+              <p>DogeCoin to US Dollar</p>
+              <div class="sum">
+                <p>0.16206</p>
+                <p>0.00051</p>
+                <p>0.32%</p>
+              </div>
+            </div>
+          </div>
+          <button type="button">Start trading today!</button>
+        </div>
+      </section>
+      <section class="top-section">
+        <div class="container"></div>
+      </section>
+      <section class="about-section">
+        <div class="container">
+          <div class="about-text">
+            <h2>Is the world’s first PROQuantum computing machine</h2>
+            <p>
+              Using that power, our PROQuantum computing machine will help you
+              make smarter trades and make more money than you thought possible.
+              Even better, it’s designed so that you can make money and help
+              others while you profit!
+            </p>
+          </div>
+          <div class="about-video">
+            <video
+              class="video-img"
+              width="370"
+              height="208"
+              controls
+              autoplay
+              muted
+            >
+              <source
+                src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback6.mp4"
+                type="video/mp4"
+              />
+              Ваш браузер не підтримує відтворення відео.
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="problem-section">
+        <div class="container">
+          <div class="problem-block">
+            <div class="problem-card">
+              <img src="./img/1.svg" alt="" srcset="" />
+              <h5>Empowerment</h5>
+              <p>
+                Poverty is a global issue, one which we aim to solve – forever.
+                When you invest with $ 250, you’re directly helping us save
+                people’s lives – and making money!
+              </p>
+            </div>
+            <div class="problem-card">
+              <img src="./img/2.svg" alt="" srcset="" />
+              <h5>Transformation</h5>
+              <p>
+                Big corporations are the ones holding all the keys to those big
+                paychecks. With PROQuantum Computing, that’s no longer true. Now
+                YOU have the power to make a great income. The power that was
+                once reserve for the richest among us, is now yours.
+              </p>
+            </div>
+            <div class="problem-card">
+              <img src="./img/3.svg" alt="" srcset="" />
+              <h5>Innovation</h5>
+              <p>
+                PROQuantum AI is designed to make the world better. Elon
+                developed this idea as a win-win. Have loans to pay off, or a
+                mortgage to pay? Want to help people? Now you can do both.
+              </p>
+            </div>
+            <div class="problem-card">
+              <img src="./img/4.svg" alt="" srcset="" />
+              <h5>Stability</h5>
+              <p>
+                A country’s economy is so fragile. As you saw in 2008, it only
+                takes a few people at the top to ruin it. We want to stop that
+                from happening ever again.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solution-section">
+        <div class="container">
+          <div class="solution-text">
+            <div class="solution-desc">
+              <h2>Solution</h2>
+              <p>
+                By using the power of PROQuantum Computing, you can help us take
+                the exclusivity of the top 1%, and solve 4 major problems:
+                Develop a stable, wealthy economy for all, cure poverty, level
+                the playing ground for all (not just the richest), and help you
+                make your financial dreams come true!
+              </p>
+            </div>
+            <div class="title-solution">
+              <h2>SO, WHAT DO YOU NEED TO DO TO START?</h2>
+            </div>
+          </div>
+
+          <div class="solution-icons-block">
+            <div class="solution-icon">
+              <img src="./img/wallet.svg" alt="" srcset="" />
+              <h3>DEPOSIT</h3>
+              <p>Deposit £ 250</p>
+            </div>
+            <div class="solution-icon">
+              <img src="./img/polyhedron.svg" alt="" srcset="" />
+              <h3>PICK</h3>
+              <p>
+                Pick the trades PROQuantumAI recommends (with the power of
+                PROQuantum Computing!)
+              </p>
+            </div>
+            <div class="solution-icon">
+              <img src="./img/hend.svg" alt="" srcset="" />
+              <h3>WITHDRAW</h3>
+              <p>Withdraw any funds in matter of hours!</p>
+            </div>
+          </div>
+          <button type="button">Start trading today!</button>
+        </div>
+      </section>
+      <section class="reviews-section">
+        <div class="container">
+          <h2 class="section-title">Read reviews to find out more about us</h2>
+          <div class="reviews-block">
+            <div class="reviews-cards">
+              <img src="./img/stars1.svg" alt="" srcset="" />
+              <h3></h3>
+              <p></p>
+            </div>
+            <div class="reviews-cards">
+              <img src="./img/stars2.svg" alt="" srcset="" />
+              <h3></h3>
+              <p></p>
+            </div>
+            <div class="reviews-cards">
+              <img src="./img/stars1.svg" alt="" srcset="" />
+              <h3></h3>
+              <p></p>
+            </div>
+            <div class="reviews-cards">
+              <img src="./img/stars1.svg" alt="" srcset="" />
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="reviews-img-block">
+            <img src="./img/reviews-img1.svg" alt="" />
+            <img src="./img/reviews-img2.svg" alt="" />
+            <img src="./img/reviews-img3.svg" alt="" />
+          </div>
+          <button type="button">
+            <img src="./img/arrow-left.svg" alt="" srcset="" />
+          </button>
+          <button type="button"><img src="./img/arrow-r.svg" alt="" /></button>
+        </div>
+      </section>
+      <section class="video-section">
+        <div class="container">
+          <h2 class="section-title">Video reviews</h2>
+          <div class="video-carousel">
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback6.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 6620</b></p>
+            </div>
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback7.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 980</b></p>
+            </div>
+
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback1.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 520</b></p>
+            </div>
+
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback2.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 9520</b></p>
+            </div>
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback3.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 15230</b></p>
+            </div>
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback4.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 5320</b></p>
+            </div>
+            <div class="video_block show">
+              <video
+                class="video-img"
+                width="370"
+                height="208"
+                controls
+                autoplay
+                muted
+              >
+                <source
+                  src="https://worldsinvesin.click/es/quantumai4-spain-ad3/img/feedback5.mp4"
+                  type="video/mp4"
+                />
+                Ваш браузер не підтримує відтворення відео.
+              </video>
+              <p class="desc_video">Saldo actual: &nbsp; <b>€ 2520</b></p>
+            </div>
+          </div>
+
+          <div class="buttons-video">
+            <button type="button">
+              <img src="./img/btn-arr-l.svg" alt="" srcset="" />
+            </button>
+            <button type="button">
+              <img src="./img/btn-arr-r.svg" alt="" srcset="" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="partners-section">
+        <div class="container">
+          <div class="partners-block-1">
+            <img src="./img/partners-1.svg" alt="" />
+            <img src="./img/partners2.svg" alt="" />
+            <img src="./img/partners3.svg" alt="" />
+            <img src="./img/partners4.svg" alt="" />
+          </div>
+          <div class="partners-block-2">
+            <img src="./img/partners5.svg" alt="" />
+            <img src="./img/partners6.svg" alt="" />
+            <img src="./img/partners7.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="opinions-section">
+        <div class="container">
+          <h2 class="section-title">Opinions</h2>
+          <div class="opinion-one">
+            <img src="./img/opinion-one.jpg" alt="" srcset="" />
+            <div class="opinion-text">
+              <h5>Jeff Bezos</h5>
+              <p>Technology entrepreneur, investor and philanthropist</p>
+              <div class="opinion-desc">
+                <p>
+                  Quantum computing is the future. I am not exaggerating when I
+                  say that it will change everything. We are in the early days
+                  of PROQuantum; Not many people know about it, which means that
+                  very few use it. The few are making incredibly wise (and
+                  profitable) decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="opinion-two">
+            <div class="opinion-text">
+              <h5>Jeff Bezos</h5>
+              <p>Technology entrepreneur, investor and philanthropist</p>
+              <div class="opinion-desc">
+                <p>
+                  Quantum computing is the future. I am not exaggerating when I
+                  say that it will change everything. We are in the early days
+                  of PROQuantum; Not many people know about it, which means that
+                  very few use it. The few are making incredibly wise (and
+                  profitable) decisions.
+                </p>
+              </div>
+            </div>
+            <img src="./img/opinion-two.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="makes-section">
+        <div class="container">
+          <h2 class="section-title">
+            What Makes PROQuantum AI Computing So Good For Investing
+          </h2>
+          <div class="makes-text">
+            <p>
+              This is the world’s first PROQuantum computing machine; unlike
+              your home PC, this computer is smart – it makes thousands of
+              simultaneous ‘decisions’ at once. Your brain thinks one thought at
+              a time, in a sequence. Imagine if you could have thousands of
+              thoughts at once, each as clear as the other. That’s PROQuantum
+              computing.
+            </p>
+            <p>
+              It finds trades by analyzing differentials between stock prices
+              every nano-second that stock markets are live (and makes
+              predictions even when the markets are closed, so you’ll know
+              what’s likely to happen when they re-open). Your current computer
+              (and everyone else’s) can’t match the decision speeds of this new
+              system.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2 class="section-title">Start your business trip with PROQuantum AI</h2>
+      <form id="myForm">
+        <input
+          class="inp"
+          type="text"
+          name="name"
+          placeholder="First Name"
+        /><br />
+        <input
+          class="inp"
+          type="text"
+          name="name"
+          placeholder="Last Name"
+        /><br />
+        <input
+          class="inp"
+          type="text"
+          name="email"
+          placeholder="E-mail"
+        /><br />
+        <div class="block">
+          <div class="cantry">
+            <img
+              class="img-flag"
+              src="https://cdn.countryflags.com/thumbs/ukraine/flag-round-250.png"
+              alt="Український прапор"
+            />
+            <span>+3 80</span>
+          </div>
+          <input
+            type="tel"
+            class="phone"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10}"
+            placeholder="Phone"
+            required
+          />
+        </div>
+        <br />
+        <button id="btn" class="btn" type="button" onclick="showLet()">
+          Start
+        </button>
+      </form>
+      <p class="copyright">
+        Copyright © 2024 PROQuantum AI. All Rights Reserved.
+      </p>
+    </footer>
+  </body>
 </html>
