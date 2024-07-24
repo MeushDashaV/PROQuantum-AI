@@ -339,6 +339,7 @@ h5 {
 .usd-block {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .usd-card {
@@ -364,4 +365,253 @@ h5 {
   justify-content: space-between;
   font-size: 18px;
   padding: 25px 0;
+}
+
+.sum-color {
+  color: var(--color-text-light);
+}
+
+.usd-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 44px;
+  padding: 10px 25px;
+  border: solid 2px var(--color-primary-title);
+  border-radius: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.usd-button:hover {
+  background-color: rgba(234, 234, 234, 1);
+}
+
+.usd-btn-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.usd-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 370px;
+  height: 59px;
+  border-radius: 80px;
+  padding: 15px, 10px;
+  background-color: var(--color-buttons-basic);
+  color: var(--color-primary-title);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  justify-content: center;
+  border: none;
+}
+
+.usd-btn:hover {
+  background-color: var(--color-buttons-hover);
+  box-shadow: 0px 4px 10px 0px rgba(183, 255, 122, 0.5);
+}
+
+.top-img {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.about-block {
+  display: flex;
+  gap: 130px;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+video {
+  width: 570px !important;
+  height: 321px;
+  border-radius: 20px;
+}
+
+.problem-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.problem-card {
+  background-color: rgba(251, 250, 250, 1);
+  box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 25px;
+  width: 220px;
+  height: 600px;
+}
+
+.problem-img {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0 25px 0;
+}
+
+.problem-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.problem-section {
+  margin-bottom: 71px;
+}
+
+.solution-section {
+  background-image: url(./img/solution-bckg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 50px;
+  color: #fff;
+  padding-bottom: 193px;
+}
+
+.solution-text {
+  display: flex;
+  gap: 130px;
+}
+
+.solution-desc {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title-solution {
+  padding-top: 83px;
+}
+
+.solution-icons-block {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.solution-icon {
+  width: 400px;
+  text-align: center;
+}
+
+.solution-img {
+  display: block;
+  align-content: center;
+  margin-bottom: 30px;
+  height: 80px;
+}
+
+.solution-title {
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  margin-top: -143px;
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  margin-bottom: 100px;
+}
+
+.reviews-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-cards {
+  background-color: rgba(234, 234, 234, 1);
+  border-radius: 20px;
+  padding: 15px;
+  width: 220px;
+  font-size: 20px;
+  align-items: 1.45em;
+}
+.reviews-title {
+  padding: 20px 0 10px 0;
+}
+
+.reviews-img-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+
+.review-buttons {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.review-btn {
+  background-color: transparent;
+  width: 98px;
+  height: 50px;
+  padding: 10px 40px;
+  border-radius: 80px;
+  border: solid 2px var(--color-primary-title);
+  cursor: pointer;
+}
+
+.review-btn:hover {
+  background-color: rgba(234, 234, 234, 1);
+}
+
+.video-section {
+  text-align: center;
+}
+
+.video-carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.video_block {
+  flex: 0 0 33.33%; /* 3 videos per row */
+  display: none;
+}
+
+.video_block.show {
+  display: block;
+}
+
+video.video-img {
+  width: 370px !important;
+  height: 208px !important;
+}
+
+.buttons-video {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.btn-video {
+  background-color: var(--color-text-light);
+  margin-top: 20px;
+  border: none;
+  width: 98px;
+  height: 50px;
+  border-radius: 80px;
+  cursor: pointer;
 }
