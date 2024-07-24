@@ -8,26 +8,26 @@
     <title>PROQuantum AI</title>
   </head>
   <body>
-          <section class="hero-section">
-    <header>
-      <div class="container">
-        <div class="header__container">
-          <nav class="header__nav">
-            <a href="#">
-              <img src="./img/logo.svg" alt="logo" />
-            </a>
-          </nav>
-          <p class="text-header">
-            1,590,935<br />
-            USERS TRUST US
-          </p>
-          <button class="header-button" type="button">Create account</button>
-        </div>
-      </div>
-    </header>
-    <main>
+    <div class="hero-section">
+      <header>
         <div class="container">
-            <div class="hero-section__block">
+          <div class="header__container">
+            <nav class="header__nav">
+              <a href="#">
+                <img src="./img/logo.svg" alt="logo" />
+              </a>
+            </nav>
+            <p class="text-header">
+              1,590,935<br />
+              USERS TRUST US
+            </p>
+            <button class="header-button" type="button">Create account</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="hero-section__block">
           <div class="hero-section__text">
             <h1 class="hero-title">PROQuantum AI</h1>
             <p class="hero-text">
@@ -78,119 +78,142 @@
                 />
               </div>
               <br />
-              <button id="btn" class="form-button" type="button" onclick="showLet()">
+              <button
+                id="btn"
+                class="form-button"
+                type="button"
+                onclick="showLet()"
+              >
                 Start
               </button>
             </form>
-            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+    <main>
       <section class="numbers-section">
-        <div class="container">
+        <div class="container numbers-container">
           <h2 class="section-title">Our numbers speak for themselves</h2>
-          <div class="numbers-block">
-            <h2 class="number-plus">570k+</h2>
-            <p>Traders</p>
-          </div>
-          <img src="./img/num.svg" alt="number img" srcset="" />
-          <div class="numbers-block">
-            <h2 class="number-plus">90k+</h2>
-            <p>Active clients monthly</p>
-          </div>
-          <img src="./img/num.svg" alt="number img" srcset="" />
-          <div class="numbers-block">
-            <h2 class="number-plus">$65m+</h2>
-            <p>Monthly investing volume</p>
-          </div>
-          <img src="./img/num.svg" alt="number img" srcset="" />
-          <div class="numbers-block">
-            <h2 class="number-plus">$37m+</h2>
-            <p>Withdrawn each month</p>
+          <div class="numbers-content">
+            <div class="numbers-block">
+              <h2 class="number-plus">570k+</h2>
+              <p>Traders</p>
+            </div>
+            <img src="./img/num.svg" alt="number-img" />
+            <div class="numbers-block">
+              <h2 class="number-plus">90k+</h2>
+              <p>Active clients monthly</p>
+            </div>
+            <img src="./img/num.svg" alt="number-img" />
+            <div class="numbers-block">
+              <h2 class="number-plus">$65m+</h2>
+              <p>Monthly investing volume</p>
+            </div>
+            <img src="./img/num.svg" alt="number-img" />
+            <div class="numbers-block">
+              <h2 class="number-plus">$37m+</h2>
+              <p>Withdrawn each month</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="markets-section">
         <div class="container">
-          <h2 class="section-title">Tailored access to world markets</h2>
-          <p>
-            We offer a one-click trading experience with 3,000+ world-renowned
-            markets.
-          </p>
+          <div class="markets-based-text">
+            <h2 class="section-title">Tailored access to world markets</h2>
+            <p>
+              We offer a one-click trading experience with 3,000+ world-renowned
+              markets.
+            </p>
+          </div>
+
           <div class="makets-block">
             <div class="markets-text">
               <div class="desc">
-                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <img src="./img/Checked.svg" alt="checked" />
                 <p>Fee-free deposits & withdrawals</p>
               </div>
               <div class="desc">
-                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <img src="./img/Checked.svg" alt="checked" />
                 <p>Stringent privacy and security settings</p>
               </div>
               <div class="desc">
-                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <img src="./img/Checked.svg" alt="checked" />
                 <p>Tech indicators, analytics tools & advanced charts</p>
               </div>
               <div class="desc">
-                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <img src="./img/Checked.svg" alt="checked" />
                 <p>Educational app, online courses & trading guides</p>
               </div>
               <div class="desc">
-                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <img src="./img/Checked.svg" alt="checked" />
                 <p>
                   The latest market news, videos, and upcoming economic events
                 </p>
               </div>
               <div class="desc">
-                <img src="./img/Checked.svg" alt="checked" srcset="" />
+                <img src="./img/Checked.svg" alt="checked" />
                 <p>Integration with MT4 and TradingView</p>
               </div>
             </div>
             <div class="markets-schedule">
-              <img src="./img/schedule.png" alt="" srcset="" />
+              <img src="./img/schedule.png" alt="" />
             </div>
           </div>
 
           <div class="usd-block">
             <div class="usd-card">
-              <img src="./img/Ripple.svg" alt="" srcset="" />
-              <h5>Ripple / USD</h5>
+              <div class="usd-img">
+                <img src="./img/Ripple.svg" alt="" />
+              </div>
+              <h5 class="usd-title">Ripple / USD</h5>
               <p>Ripple to US Dollar</p>
               <div class="sum">
                 <p>0.526</p>
                 <p>0.00245</p>
                 <p>0.47%</p>
               </div>
+              <button class="usd-button" type="button">Trade</button>
             </div>
             <div class="usd-card">
-              <img src="./img/sol.svg" alt="" srcset="" />
-              <h5>Sol / USD</h5>
+              <div class="usd-img">
+                <img src="./img/sol.svg" alt="" />
+              </div>
+              <h5 class="usd-title">Sol / USD</h5>
               <p>Sol to US Dollar</p>
               <div class="sum">
                 <p>170.727</p>
                 <p>0.00245</p>
                 <p>0.75%</p>
               </div>
+              <button class="usd-button" type="button">Trade</button>
             </div>
             <div class="usd-card">
-              <img src="./img/Ethereum.svg" alt="" srcset="" />
-              <h5>Ethereum / USD</h5>
+              <div class="usd-img">
+                <img src="./img/Ethereum.svg" alt="" />
+              </div>
+              <h5 class="usd-title">Ethereum / USD</h5>
               <p>Ethereum to US Dollar</p>
               <div class="sum">
                 <p>3806.93</p>
                 <p>36.284</p>
                 <p>0.95%</p>
               </div>
+              <button class="usd-button" type="button">Trade</button>
             </div>
             <div class="usd-card">
-              <img src="./img/DogeCoin.svg" alt="" srcset="" />
-              <h5>DogeCoin / USD</h5>
+              <div class="usd-img">
+                <img src="./img/DogeCoin.svg" alt="" />
+              </div>
+              <h5 class="usd-title">DogeCoin / USD</h5>
               <p>DogeCoin to US Dollar</p>
               <div class="sum">
                 <p>0.16206</p>
                 <p>0.00051</p>
                 <p>0.32%</p>
               </div>
+              <button class="usd-button" type="button">Trade</button>
             </div>
           </div>
           <button type="button">Start trading today!</button>
@@ -232,7 +255,7 @@
         <div class="container">
           <div class="problem-block">
             <div class="problem-card">
-              <img src="./img/1.svg" alt="" srcset="" />
+              <img src="./img/1.svg" alt="" />
               <h5>Empowerment</h5>
               <p>
                 Poverty is a global issue, one which we aim to solve – forever.
@@ -241,7 +264,7 @@
               </p>
             </div>
             <div class="problem-card">
-              <img src="./img/2.svg" alt="" srcset="" />
+              <img src="./img/2.svg" alt="" />
               <h5>Transformation</h5>
               <p>
                 Big corporations are the ones holding all the keys to those big
@@ -251,7 +274,7 @@
               </p>
             </div>
             <div class="problem-card">
-              <img src="./img/3.svg" alt="" srcset="" />
+              <img src="./img/3.svg" alt="" />
               <h5>Innovation</h5>
               <p>
                 PROQuantum AI is designed to make the world better. Elon
@@ -260,7 +283,7 @@
               </p>
             </div>
             <div class="problem-card">
-              <img src="./img/4.svg" alt="" srcset="" />
+              <img src="./img/4.svg" alt="" />
               <h5>Stability</h5>
               <p>
                 A country’s economy is so fragile. As you saw in 2008, it only
@@ -291,12 +314,12 @@
 
           <div class="solution-icons-block">
             <div class="solution-icon">
-              <img src="./img/wallet.svg" alt="" srcset="" />
+              <img src="./img/wallet.svg" alt="" />
               <h3>DEPOSIT</h3>
               <p>Deposit £ 250</p>
             </div>
             <div class="solution-icon">
-              <img src="./img/polyhedron.svg" alt="" srcset="" />
+              <img src="./img/polyhedron.svg" alt="" />
               <h3>PICK</h3>
               <p>
                 Pick the trades PROQuantumAI recommends (with the power of
@@ -304,7 +327,7 @@
               </p>
             </div>
             <div class="solution-icon">
-              <img src="./img/hend.svg" alt="" srcset="" />
+              <img src="./img/hend.svg" alt="" />
               <h3>WITHDRAW</h3>
               <p>Withdraw any funds in matter of hours!</p>
             </div>
@@ -317,22 +340,22 @@
           <h2 class="section-title">Read reviews to find out more about us</h2>
           <div class="reviews-block">
             <div class="reviews-cards">
-              <img src="./img/stars1.svg" alt="" srcset="" />
+              <img src="./img/stars1.svg" alt="" />
               <h3></h3>
               <p></p>
             </div>
             <div class="reviews-cards">
-              <img src="./img/stars2.svg" alt="" srcset="" />
+              <img src="./img/stars2.svg" alt="" />
               <h3></h3>
               <p></p>
             </div>
             <div class="reviews-cards">
-              <img src="./img/stars1.svg" alt="" srcset="" />
+              <img src="./img/stars1.svg" alt="" />
               <h3></h3>
               <p></p>
             </div>
             <div class="reviews-cards">
-              <img src="./img/stars1.svg" alt="" srcset="" />
+              <img src="./img/stars1.svg" alt="" />
               <h3></h3>
               <p></p>
             </div>
@@ -343,7 +366,7 @@
             <img src="./img/reviews-img3.svg" alt="" />
           </div>
           <button type="button">
-            <img src="./img/arrow-left.svg" alt="" srcset="" />
+            <img src="./img/arrow-left.svg" alt="" />
           </button>
           <button type="button"><img src="./img/arrow-r.svg" alt="" /></button>
         </div>
@@ -477,10 +500,10 @@
 
           <div class="buttons-video">
             <button type="button">
-              <img src="./img/btn-arr-l.svg" alt="" srcset="" />
+              <img src="./img/btn-arr-l.svg" alt="" />
             </button>
             <button type="button">
-              <img src="./img/btn-arr-r.svg" alt="" srcset="" />
+              <img src="./img/btn-arr-r.svg" alt="" />
             </button>
           </div>
         </div>
@@ -504,7 +527,7 @@
         <div class="container">
           <h2 class="section-title">Opinions</h2>
           <div class="opinion-one">
-            <img src="./img/opinion-one.jpg" alt="" srcset="" />
+            <img src="./img/opinion-one.jpg" alt="" />
             <div class="opinion-text">
               <h5>Jeff Bezos</h5>
               <p>Technology entrepreneur, investor and philanthropist</p>
@@ -565,7 +588,7 @@
     </main>
     <footer>
       <h2 class="section-title">Start your business trip with PROQuantum AI</h2>
-      <form id="myForm">
+      <form>
         <input
           class="inp"
           type="text"
@@ -596,7 +619,6 @@
           <input
             type="tel"
             class="phone"
-            id="phone"
             name="phone"
             pattern="[0-9]{10}"
             placeholder="Phone"
@@ -604,9 +626,7 @@
           />
         </div>
         <br />
-        <button id="btn" class="btn" type="button" onclick="showLet()">
-          Start
-        </button>
+        <button class="btn" type="button" onclick="showLet()">Start</button>
       </form>
       <p class="copyright">
         Copyright © 2024 PROQuantum AI. All Rights Reserved.
