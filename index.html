@@ -567,7 +567,7 @@
           <div class="opinion-one">
             <img src="./img/opinion-one.jpg" alt="" />
             <div class="opinion-text">
-              <h5>Jeff Bezos</h5>
+              <h5 class="opinion-title">Jeff Bezos</h5>
               <p>Technology entrepreneur, investor and philanthropist</p>
               <div class="opinion-desc">
                 <p>
@@ -582,19 +582,22 @@
           </div>
           <div class="opinion-two">
             <div class="opinion-text">
-              <h5>Jeff Bezos</h5>
-              <p>Technology entrepreneur, investor and philanthropist</p>
-              <div class="opinion-desc">
+              <h5 class="opinion-title">Bill Gates</h5>
+              <p>
+                Business magnate, investor, author, philanthropist and
+                humanitarian.
+              </p>
+              <div class="opinion-desc-two">
                 <p>
-                  Quantum computing is the future. I am not exaggerating when I
-                  say that it will change everything. We are in the early days
-                  of PROQuantum; Not many people know about it, which means that
-                  very few use it. The few are making incredibly wise (and
-                  profitable) decisions.
+                  I know for a fact that Elon has spent 3 billion of his own
+                  money to fund this program. I take my hat off to him: 3
+                  billion of his own money to fund a better future for everyone,
+                  and to help others make profits that help him achieve it. We
+                  all win, and I'm looking forward to seeing what happens.
                 </p>
               </div>
             </div>
-            <img src="./img/opinion-two.jpg" alt="" />
+            <img class="img-opinion" src="./img/opinion-two.jpg" alt="" />
           </div>
         </div>
       </section>
@@ -625,50 +628,57 @@
       </section>
     </main>
     <footer>
-      <h2 class="section-title">Start your business trip with PROQuantum AI</h2>
-      <form>
-        <input
-          class="inp"
-          type="text"
-          name="name"
-          placeholder="First Name"
-        /><br />
-        <input
-          class="inp"
-          type="text"
-          name="name"
-          placeholder="Last Name"
-        /><br />
-        <input
-          class="inp"
-          type="text"
-          name="email"
-          placeholder="E-mail"
-        /><br />
-        <div class="block">
-          <div class="cantry">
-            <img
-              class="img-flag"
-              src="https://cdn.countryflags.com/thumbs/ukraine/flag-round-250.png"
-              alt="Український прапор"
-            />
-            <span>+3 80</span>
-          </div>
+      <div class="footer">
+        <h2 class="section-title ">
+          Start your business trip with PROQuantum AI
+        </h2>
+        <form class="form-footer">
+          <p class="form-title">
+            Learn how You can Start<br />Your Trading Journey
+          </p>
           <input
-            type="tel"
-            class="phone"
-            name="phone"
-            pattern="[0-9]{10}"
-            placeholder="Phone"
-            required
-          />
-        </div>
-        <br />
-        <button class="btn" type="button" onclick="showLet()">Start</button>
-      </form>
-      <p class="copyright">
-        Copyright © 2024 PROQuantum AI. All Rights Reserved.
-      </p>
+            class="inp"
+            type="text"
+            name="name"
+            placeholder="First Name"
+          /><br />
+          <input
+            class="inp"
+            type="text"
+            name="name"
+            placeholder="Last Name"
+          /><br />
+          <input
+            class="inp"
+            type="text"
+            name="email"
+            placeholder="E-mail"
+          /><br />
+          <div class="block">
+            <div class="cantry">
+              <img
+                class="img-flag"
+                src="https://cdn.countryflags.com/thumbs/ukraine/flag-round-250.png"
+                alt="Український прапор"
+              />
+              <span>+3 80</span>
+            </div>
+            <input
+              type="tel"
+              class="phone"
+              name="phone"
+              pattern="[0-9]{10}"
+              placeholder="Phone"
+              required
+            />
+          </div>
+          <br />
+          <button class="form-button" type="button" onclick="showLet()">Start</button>
+        </form>
+        <p class="copyright">
+          Copyright © 2024 PROQuantum AI. All Rights Reserved.
+        </p>
+      </div>
     </footer>
 
     <script src="index.js"></script>
