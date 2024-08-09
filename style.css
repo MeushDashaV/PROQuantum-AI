@@ -23,6 +23,12 @@ body {
   font-weight: 500;
   line-height: 1.35;
 }
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
 
 p,
 h1,
@@ -764,6 +770,7 @@ footer::before {
     justify-content: space-between;
     align-items: center;
     border-radius: 40px;
+    width: 320px;
   }
 
   .header__nav img {
@@ -800,7 +807,6 @@ footer::before {
   .hero-section__block {
     margin-top: 110px;
     display: block;
-    
   }
 
   .hero-section__text {
@@ -822,6 +828,27 @@ footer::before {
     display: flex;
     flex-direction: column;
     gap: 40px;
-   align-items: center;
+    align-items: center;
+  }
+
+  .inp {
+    width: 320px !important;
+    padding: 0;
+  }
+
+  .phone {
+    width: 200px;
+  }
+
+  .form {
+    padding: 50px 20px;
+    border-radius: 0;
+  }
+
+  .form-button {
+    width: 320px;
+    height: 59px;
+    padding: 0;
+    border-radius: 80px;
   }
 }
