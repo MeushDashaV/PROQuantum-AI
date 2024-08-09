@@ -101,11 +101,41 @@ h5 {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  z-index: -1;
+    position: relative;
+  overflow: hidden;
 }
 .hero-section__block {
   display: flex;
   gap: 130px;
+
 }
+
+.falling-leaf {
+  position: absolute;
+  top: 0; /* Початок зверху */
+  left: -200px; /* Початок за межами лівого краю секції */
+  animation: fall 10s infinite linear; /* Анімація падіння */
+}
+
+@keyframes fall {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(25vw) translateY(50px) rotate(15deg);
+  }
+  50% {
+    transform: translateX(50vw) translateY(150px) rotate(-15deg);
+  }
+  75% {
+    transform: translateX(75vw) translateY(300px) rotate(10deg);
+  }
+  100% {
+    transform: translateX(100vw) translateY(500px) rotate(-10deg);
+  }
+}
+
 .hero-section__text {
   padding-top: 294px;
   width: 570px;
